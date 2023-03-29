@@ -1,11 +1,11 @@
-name : First action
-on : workflow-dispatch
-jobs :
+name: First action
+on: workflow_dispatch
+jobs:
   first-job:
-    name : first-job
-    runs-on : ubuntu-latest
+    name: first-job
+    runs-on: ubuntu-latest
     steps:
-      - name : Print Hello
-        run : |
+      - name: Print Hello
+        run: |
           echo "Hello welcome"
           echo "Bye see you"

@@ -1,0 +1,11 @@
+name : First action
+on : workflow-dispatch
+jobs :
+  first-job:
+    name : first-job
+    runs-on : ubuntu-latest
+    steps:
+      - name : Print Hello
+        run : |
+          echo "Hello welcome"
+          echo "Bye see you"
